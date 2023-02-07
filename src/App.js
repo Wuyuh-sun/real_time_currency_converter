@@ -20,6 +20,11 @@ function App() {
   return (
     <div className="App">
       {res === undefined ? false : <Calculator res={res} />}
+      <div style={{
+        position : "absolute",
+        top : "calc(100% - 50px)",
+
+      }}>© 2023 WUYUH. All rights reserved.</div>
     </div>
   );
 }
