@@ -1,0 +1,111 @@
+.Wrap{
+  width: 700px;
+  height: 600px;
+  border-radius: 30px;
+  /* border: 1px solid black; */
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.4);
+  /* position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  box-sizing: border-box;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+.Wrap h1{
+  margin-bottom: 20px;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.Wrap small{
+  color: gray;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.Cal_box{
+  /* border: 1px solid black; */
+  width: 80%;
+  height: 50%;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  box-sizing: border-box;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Standard_inputBox, .Convert_inputBox{
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 15px;
+  margin: 30px;
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.Standard_inputBox:hover, .Convert_inputBox:hover{
+  border: 1px solid rgba(0,0,0,0.8);
+}
+.Standard_inputBox:focus-within, .Convert_inputBox:focus-within{
+  border: 2px solid cornflowerblue;
+  width: calc(100% + 2px);
+}
+.Standard_inputBox:focus-within{
+  margin-bottom: 28px;
+  top: -1px;
+}
+.Convert_inputBox:focus-within{
+  margin-top: 28px;
+  top: 1px;
+}
+.inputNumberBox{
+  width: 40%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  caret-color: cornflowerblue;
+  border-radius: 15px 0 0 15px;
+}
+.inputNumberBox:focus{
+  outline: none;
+}
+.boundary{
+  border: 1px solid rgba(0,0,0,0.1);
+  width: 0;
+  height: 70%;
+  box-sizing: border-box;
+}
+.exchangeSelectBox{
+  width: 60%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 0 10px 0 0px;
+  background-color: transparent;
+  border: none;
+  font-size: 1em;
+  text-align: end;
+  border-radius: 0px 15px 15px 0px;
+  font-weight: 600;
+  color: rgba(0,0,0,0.8);
+}
+.exchangeSelectBox:focus{
+  outline: none;
+}
+
